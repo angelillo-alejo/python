@@ -1,4 +1,5 @@
 ### Lists ###
+"""" Las listas son estructuras de datos que pueden almacenar cualquier otro tipo de dato, inclusive una lista puede contener otra lista, además, la cantidad de elementos de una lista se puede modificar removiendo o añadiendo elementos. Para definir una lista se utilizan los corchetes, dentro de estos se colocan todos los elementos separados por comas:"""
 
 # Definición
 
@@ -36,12 +37,10 @@ name, height, age, surname = my_other_list[2], my_other_list[1], my_other_list[0
 print(age)
 
 # Concatenación
-
 print(my_list + my_other_list)
 #print(my_list - my_other_list)
 
 # Creación, inserción, actualización y eliminación
-
 my_other_list.append("MoureDev")
 print(my_other_list)
 
@@ -68,7 +67,6 @@ del my_list[2]
 print(my_list)
 
 # Operaciones con listas
-
 my_new_list = my_list.copy()
 
 my_list.clear()
@@ -82,11 +80,9 @@ my_new_list.sort()
 print(my_new_list)
 
 # Sublistas
-
 print(my_new_list[1:3])
 
 # Cambio de tipo
-
 my_list = "Hola Python"
 print(my_list)
 print(type(my_list))
